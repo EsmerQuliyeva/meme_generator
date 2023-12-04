@@ -1,0 +1,36 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+.btn{
+    background-color: whitesmoke;
+    padding: 15px;
+    border:5px solid black;
+    border-top: none;
+    border-bottom: none;
+    color: red;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    margin-bottom: 30px;
+    transition: all 400ms ease;
+    
+}
+.btn:hover{
+    padding: 25px;
+    border:5px solid red;
+    border-top: none;
+    border-bottom: none;
+    letter-spacing: 5px;
+
+}
